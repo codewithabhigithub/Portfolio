@@ -61,19 +61,19 @@ const Contact = () => {
               I'm always open to new opportunities and collaboration. Feel free to reach out!
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/abhishekgupta782002" className="text-foreground/60 hover:text-foreground/80">
+              <a href="https://www.facebook.com/abhishekgupta782002" target='_blank' className="text-foreground/60 hover:text-foreground/80">
                 <img src={facebook} alt="" className="h-6 w-6" />
               </a>
-              <a href="https://www.instagram.com/abhishekgupta782002/" className="text-foreground/60 hover:text-foreground/80">
+              <a href="https://www.instagram.com/abhishekgupta782002/" target='_blank' className="text-foreground/60 hover:text-foreground/80">
                 <img src={instagram} alt="" className="h-6 w-6" />
               </a>
-              <a href="https://www.linkedin.com/in/abhishek-gupta-8a6204193/" className="text-foreground/60 hover:text-foreground/80">
+              <a href="https://www.linkedin.com/in/abhishek-gupta-8a6204193/" target='_blank' className="text-foreground/60 hover:text-foreground/80">
                 <img src={linkedin} alt="" className="h-6 w-6" />
               </a>
-              <a href="https://x.com/Abhishe01860637" className="text-foreground/60 hover:text-foreground/80">
+              <a href="https://x.com/Abhishe01860637" target='_blank' className="text-foreground/60 hover:text-foreground/80">
                 <img src={twitter} alt="" className="h-6 w-6" />
               </a>
-              <a href="https://github.com/codewithabhigithub" className="text-foreground/60 hover:text-foreground/80">
+              <a href="https://github.com/codewithabhigithub" target='_blank' className="text-foreground/60 hover:text-foreground/80">
                 <img src={github2} alt="" className="h-6 w-6" />
               </a>
             </div>
