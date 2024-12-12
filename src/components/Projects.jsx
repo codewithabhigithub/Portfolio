@@ -39,11 +39,11 @@ const Projects = () => {
           github: "#"
         },
         {
-          title: 'Super Car',
+          title: 'Accredian',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Supercar,
+          image: Accredian,
           live: "https://supercar123.netlify.app/",
-          github: "https://github.com/rohitsingh93300/supercars"
+          github: "https://github.com/codewithabhigithub/Accredian-frontend-task.git"
         },
       ];
 
