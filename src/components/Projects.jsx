@@ -42,7 +42,7 @@ const Projects = () => {
           title: 'Accredian',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
           image: Accredian,
-          live: "https://supercar123.netlify.app/",
+          live: "https://accredian-frontend-task-livid-zeta.vercel.app/",
           github: "https://github.com/codewithabhigithub/Accredian-frontend-task.git"
         },
       ];
