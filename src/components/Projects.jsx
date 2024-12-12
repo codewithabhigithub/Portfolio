@@ -3,7 +3,7 @@ import Portfolio from '../assets/Portfolio.png'
 import SpicyBites from '../assets/SpicyBites.png'
 import Youtube from '../assets/Youtube.png'
 import Webelite from '../assets/Webelite.png'
-import Supercar from '../assets/Supercar.png'
+import Accredian from '../assets/Accredian.png'
 import Cards from './Cards'
 
 
