@@ -2,7 +2,7 @@ import React from 'react'
 import Divinerhythem from '../assets/Divinerhythem.png'
 import Srigurudattaacademy from '../assets/Srigurudattaacademy.png'
 import Aaronoutsourcing from '../assets/Aaronoutsourcing.png'
-import Sureshift2 from '../assets/sureshift.png'
+import Sureshift from '../assets/sureshift.png'
 import Accredian from '../assets/Accredian.png'
 import Cards from './Cards'
 
@@ -41,7 +41,7 @@ const Projects = () => {
         {
           title: 'Sureshift',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Sureshift2,
+          image: Sureshift,
           live: "https://www.sureshift.in/",
           github: "#"
         },
