@@ -3,6 +3,7 @@ import Divinerhythem from '../assets/Divinerhythem.png'
 import Srigurudattaacademy from '../assets/Srigurudattaacademy.png'
 import Aaronoutsourcing from '../assets/Aaronoutsourcing.png'
 import Sureshift from '../assets/sureshift.png'
+
 import Accredian from '../assets/Accredian.png'
 import Cards from './Cards'
 
