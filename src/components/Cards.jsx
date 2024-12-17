@@ -23,4 +23,3 @@ const Cards = ({ item }) => {
 }
 
 export default Cards
-
