@@ -1,8 +1,8 @@
 import React from 'react'
-import Portfolio from '../assets/Portfolio.png'
-import SpicyBites from '../assets/SpicyBites.png'
-import Youtube from '../assets/Youtube.png'
-import Webelite from '../assets/Webelite.png'
+import Divinerhythem from '../assets/Divinerhythem.png'
+import Srigurudattaacademy from '../assets/Srigurudattaacademy.png'
+import Aaronoutsourcing from '../assets/Aaronoutsourcing.png'
+import Sureshift from '../assets/sureshift.png'
 import Accredian from '../assets/Accredian.png'
 import Cards from './Cards'
 
@@ -11,31 +11,38 @@ const Projects = () => {
 
     const projectJson = [
         {
-          title: 'Portfolio',
+          title: 'Divinerhythem',
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: Portfolio,
-          live: "https://rohitsingh93300-portfolio.vercel.app/",
-          github: "https://github.com/rohitsingh93300/portfolio"
+          image: Divinerhythem,
+          live: "https://divinerhythem.com/",
+          github: "#"
         },
         {
-          title: 'Spicy Bites',
+          title: 'Srigurudattaacademy',
           desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
-          image: SpicyBites,
-          live: "https://spicybites.netlify.app/",
+          image: Srigurudattaacademy,
+          live: "https://srigurudattaacademy.com",
           github: "https://github.com/rohitsingh93300/YtSpicyBites"
         },
         {
-          title: 'YouTube Clone',
+          title: 'Aaronoutsourcing',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Youtube,
-          live: "https://youtube-clone-93300.netlify.app/",
-          github: "https://github.com/rohitsingh93300/YouTube-clone"
+          image: Aaronoutsourcing,
+          live: "https://aaronoutsourcing.com",
+          github: "#"
         },
         {
-          title: 'Webelite builder',
+          title: 'CheckMyKundali',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Webelite,
-          live: "https://www.webelitebuilders.com/",
+          image: Aaronoutsourcing,
+          live: "https://CheckMyKundali.com",
+          github: "#"
+        },
+        {
+          title: 'Sureshift',
+          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          image: Sureshift,
+          live: "https://www.sureshift.in/",
           github: "#"
         },
         {
