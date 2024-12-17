@@ -1,6 +1,7 @@
 import Divinerhythem from '../assets/Divinerhythem.png'
 import Srigurudattaacademy from '../assets/Srigurudattaacademy.png'
 import Aaronoutsourcing from '../assets/Aaronoutsourcing.png'
+import CheckMyKundali from '../assets/CheckMyKundali.png'
 import Sureshift from '../assets/Sureshift.png'
 import Accredian from '../assets/Accredian.png'
 import Cards from './Cards'
@@ -33,7 +34,7 @@ const Projects = () => {
         {
           title: 'CheckMyKundali',
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Aaronoutsourcing,
+          image: CheckMyKundali,
           live: "https://CheckMyKundali.com",
           github: "#"
         },
