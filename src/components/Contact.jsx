@@ -31,6 +31,7 @@ const Contact = () => {
     const templateParams = {
       to_name: 'Abhishek Gupta', // Replace with the recipient's name or dynamic value
       from_name: formData.user_name,
+      from_no: formData.user_no,
       from_email: formData.user_email,
       message: formData.message,
     };
@@ -42,7 +43,7 @@ const Contact = () => {
         (result) => {
           console.log('Email sent successfully:', result.text);
           setStatus('Message sent successfully!');
-          setFormData({ user_name: '', user_email: '', message: '' }); // Clear the form
+          setFormData({ user_name: '',user_no: '', user_email: '', message: '' }); // Clear the form
         },
         (error) => {
           console.error('Error sending email:', error.text);
@@ -89,6 +90,18 @@ const Contact = () => {
                 name="user_name"
                 placeholder="Full Name"
                 value={formData.user_name}
+                onChange={handleChange}
+                className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="user_no" className="block text-sm font-medium text-gray-700">Phone No.</label>
+              <input
+                type="text"
+                id="user_no"
+                name="user_no"
+                placeholder="Enter Your Phone No."
+                value={formData.user_no}
                 onChange={handleChange}
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
               />
