@@ -17,33 +17,59 @@ const Testimonials = () => {
     const testimonials = [
         {
             id: 1,
-            name: "Emily Johnson",
+            name: "Diya Sharma",
+            head: "Divinerhythem",
             rating: 5,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Excellent work! The site is fast, responsive, and visually appealing. Highly recommended!"
         },
         {
             id: 2,
-            name: "Michael Chen",
+            name: "Ankush Gupta",
+            head: "Srigurudattaacademy",
             rating: 4,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Very satisfied with the outcome. The attention to detail and design are commendable!"
         },
         {
             id: 3,
-            name: "Sarah Thompson",
+            name: "Aaron",
+            head: "Aaronoutsourcing",
             rating: 5,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "Great experience working with the team! The website exceeded all my expectations completely."
         },
         {
             id: 4,
-            name: "David Rodriguez",
+            name: "Dimpi Chauhan",
+            head: "CheckMyKundali",
             rating: 5,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "The website looks stunning and works flawlessly. Thank you for the amazing effort and dedication!"
         },
         {
             id: 5,
-            name: "Lisa Patel",
+            name: "Chandan",
+            head: "Sureshift",
             rating: 4,
-            text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolor, voluptatibus quos ipsam et est!"
+            text: "The website is beautifully designed and highly user-friendly. It perfectly suits my needs and is highly professional!"
+        },
+        {
+            id: 6,
+            name: "Abhishek",
+            head: "Accredian",
+            rating: 5,
+            text: "The website is exceptionally well-designed and completely user-friendly. Highly satisfied with it!"
+        },
+        {
+            id: 7,
+            name: "Aditi Verma",
+            head: "Head of the Company",
+            rating: 5,
+            text: "Impeccable work! The site’s design and performance are absolutely fantastic and user-friendly."
+        },
+        {
+            id: 7,
+            name: "Manoj Kumar",
+            head: "Client",
+            rating: 5,
+            text: "Impeccable work! The site’s design and performance are absolutely fantastic and user-friendly."
         }
     ]
 
@@ -102,7 +128,7 @@ const Testimonials = () => {
                                 <div className='flex justify-between items-center'>
                                     <div>
                                         <h3 className='font-semibold text-red-500 text-lg'>{item.name}</h3>
-                                        <p className='text-sm mt-1'>CEO, Webelite Builders</p>
+                                        <p className='text-sm mt-1'>{item.head}</p>
                                     </div>
                                     <Quote className='text-red-400'/>
                                 </div>
