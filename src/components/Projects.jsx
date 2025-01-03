@@ -1,10 +1,10 @@
 import Deliversocial from '../assets/Deliversocial.png'
 import Creatorsadda from '../assets/Creatorsadda.png'
-import UkhProperties from '../assets/UkhProperties.png'
 import Divinerhythem from '../assets/Divinerhythem.png'
 import Srigurudattaacademy from '../assets/Srigurudattaacademy.png'
 import Aaronoutsourcing from '../assets/Aaronoutsourcing.png'
 import CheckMyKundali from '../assets/CheckMyKundali.png'
+import UkhProperties from '../assets/UkhProperties.png'
 import Sureshift from '../assets/Sureshift.png'
 import Accredian from '../assets/Accredian.png'
 import Cards from './Cards'
@@ -25,13 +25,6 @@ const Projects = () => {
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
           image: Creatorsadda,
           live: "https://creatorsadda.com/",
-          github: "#"
-        },
-        {
-          title: 'Ukhproperties',
-          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: UkhProperties,
-          live: "https://ukhproperties.com/",
           github: "#"
         },
         {
@@ -60,6 +53,13 @@ const Projects = () => {
           desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
           image: CheckMyKundali,
           live: "https://CheckMyKundali.com",
+          github: "#"
+        },
+        {
+          title: 'Ukhproperties',
+          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
+          image: UkhProperties,
+          live: "https://ukhproperties.com/",
           github: "#"
         },
         {
