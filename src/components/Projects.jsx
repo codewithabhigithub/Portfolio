@@ -1,3 +1,6 @@
+import Deliversocial from '../assets/Deliversocial.png'
+import Creatorsadda from '../assets/Creatorsadda.png'
+import UkhProperties from '../assets/UkhProperties.png'
 import Divinerhythem from '../assets/Divinerhythem.png'
 import Srigurudattaacademy from '../assets/Srigurudattaacademy.png'
 import Aaronoutsourcing from '../assets/Aaronoutsourcing.png'
@@ -13,21 +16,21 @@ const Projects = () => {
         {
           title: 'DeliverSocial',
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: Divinerhythem,
+          image: Deliversocial,
           live: "https://deliversocial.in/",
           github: "#"
         },
         {
           title: 'Creatorsadda',
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: Divinerhythem,
+          image: Creatorsadda,
           live: "https://creatorsadda.com/",
           github: "#"
         },
         {
           title: 'Ukhproperties',
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: Divinerhythem,
+          image: UkhProperties,
           live: "https://ukhproperties.com/",
           github: "#"
         },
