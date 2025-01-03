@@ -11,6 +11,27 @@ const Projects = () => {
 
     const projectJson = [
         {
+          title: 'DeliverSocial',
+          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
+          image: Divinerhythem,
+          live: "https://deliversocial.in/",
+          github: "#"
+        },
+        {
+          title: 'Creatorsadda',
+          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
+          image: Divinerhythem,
+          live: "https://creatorsadda.com/",
+          github: "#"
+        },
+        {
+          title: 'Ukhproperties',
+          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
+          image: Divinerhythem,
+          live: "https://ukhproperties.com/",
+          github: "#"
+        },
+        {
           title: 'Divinerhythem',
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
           image: Divinerhythem,
