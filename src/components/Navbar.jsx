@@ -8,14 +8,14 @@ const Navbar = () => {
     <header className='sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 lg:px-0'>
       <div className=' max-w-7xl mx-auto flex h-14 items-center'>
         <div className='md:mr-4 flex justify-between w-full'>
-            <a href="#" className='mr-6 flex items-center space-x-2'>
+            <a href="/" className='mr-6 flex items-center space-x-2'>
                 <img src={Logo} alt="" className='w-36' />
             </a>
             <nav className='md:flex hidden items-center space-x-6 text-lg font-medium'>
-                <a href="#about" className='transition-colors hover:text-foreground/80 text-foreground/60'>About</a>
-                <a href="#projects" className='transition-colors hover:text-foreground/80 text-foreground/60'>Projects</a>
-                <a href="#testimonials" className='transition-colors hover:text-foreground/80 text-foreground/60'>Testimonials</a>
-                <a href="#contact" className='transition-colors hover:text-foreground/80 text-foreground/60'>Contact</a>
+                <a href="/#about" className='transition-colors hover:text-foreground/80 text-foreground/60'>About</a>
+                <a href="/#projects" className='transition-colors hover:text-foreground/80 text-foreground/60'>Projects</a>
+                <a href="/#testimonials" className='transition-colors hover:text-foreground/80 text-foreground/60'>Testimonials</a>
+                <a href="/#contact" className='transition-colors hover:text-foreground/80 text-foreground/60'>Contact</a>
             </nav>
         </div>
         <button className='inline-flex items-center justify-center rounded-md md:hidden' onClick={()=>setmMobileMenuOpen(!mobileMenuOpen)}>
