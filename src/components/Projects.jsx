@@ -52,6 +52,13 @@ const Projects = () => {
       live: "https://www.sureshift.in/",
       github: "#"
     },
+    {
+      title: 'Assure Sift Relocation',
+      desc: 'This website was personally designed and developed from scratch using Vue.js, Node.js, and PostgreSQL. Every aspect, from the responsive user interface to the scalable backend and database structure, was carefully crafted to provide a fast, secure, and user-friendly relocation platform.',
+      image: AssureSiftRelocation,
+      live: "https://assuresiftrelocation.com/",
+      github: "#"
+    },
   ];
 
   return (
